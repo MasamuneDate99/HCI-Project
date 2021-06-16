@@ -1,0 +1,16 @@
+Link Video
+
+C Programming Tutorial 1 - Intro to C 
+https://www.youtube.com/watch?v=CPjZKsUYSXg
+
+C Programming Tutorial 2 - Installing GCC
+https://www.youtube.com/watch?v=9_goo9L5Uko
+
+C Programming Tutorial 3 - Writing Our First Program - Hello World
+https://www.youtube.com/watch?v=Rw_Pyzuv0Go
+
+C Programming Tutorial 4 - How a C Program Works - Part 1
+https://www.youtube.com/watch?v=n7g4keSd0kk
+
+C Programming Tutorial 5 - How a C Program Works - Part 2
+https://www.youtube.com/watch?v=RGxwgBNQwbI
