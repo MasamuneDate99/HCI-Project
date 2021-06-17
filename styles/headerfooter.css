@@ -55,7 +55,7 @@ header .HeadRight p{
     background-color: white;
 }
 
-header .HeadRight a:hover{
+header .HeadRight a:hover, .headRight:active{
 
     color:rgb(69, 96, 248);
     background-color: white;
