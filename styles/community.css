@@ -1,0 +1,35 @@
+
+body .content{
+    margin-bottom: 2%;
+    font-family: oxy;
+}
+body .community{
+    margin-top: 2%;
+    text-align: center;
+    margin-bottom: 2%;
+    font-family: 'Oxygen', sans-serif;
+}
+
+body .contCommunity{
+
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Oxygen', sans-serif;
+    
+}
+body .bodyCommunity:hover{
+    transition: 0.8s;
+    transform: scale(1.1);
+}
+
+body .picture img{
+    width: 100px;
+    height: 100px;
+    align-items: center;
+}
+.desc{
+    text-align: center;
+    font-size: 20px;
+}
+
+
