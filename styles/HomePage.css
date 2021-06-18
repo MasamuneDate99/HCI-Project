@@ -137,7 +137,7 @@ footer img {
     left: 0px;
   }
   100% {
-    left: 1200px;
+    left: 0px;
   }
 }
 
@@ -164,4 +164,27 @@ footer img {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.body3 {
+  margin-top: 30px;
+  background-color: rgb(252, 238, 158);
+  text-align: center;
+}
+
+.logo-aboutUs {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+
+.logo-aboutUs img {
+  color: rgb(252, 238, 158);
+  width: 200px;
+  height: 200px;
+  border-radius: 50px;
+}
+
+.logo-aboutUs p {
+  width: 40%;
 }
