@@ -24,8 +24,10 @@ body .contacts{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 30px;
-    margin: 50px;
+    padding: 10%;
+    margin: 20%;
+    background-color: whitesmoke;
+    border-radius: 10px;
 }
 
 .contactprofiles img{
@@ -35,7 +37,8 @@ body .contacts{
 
 .contactprofiles:hover, .contactprofiles:active{
 
-    background-color: cornflowerblue;
+    background-color: #333d79ff;
+    color: white;
     border-radius: 10px;
     transform: scale(1.2);
     transition: 0.5s;
