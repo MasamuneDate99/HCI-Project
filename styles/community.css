@@ -1,20 +1,20 @@
 
 body .content{
     margin-bottom: 2%;
-    font-family: oxy;
+    font-family: 'Staatliches', cursive;
 }
 body .community{
     margin-top: 2%;
     text-align: center;
     margin-bottom: 2%;
-    font-family: 'Oxygen', sans-serif;
+    font-family: 'Staatliches', cursive;
 }
 
 body .contCommunity{
 
     display: flex;
     justify-content: space-evenly;
-    font-family: 'Oxygen', sans-serif;
+    font-family: 'Staatliches', cursive;
     
 }
 body .bodyCommunity:hover{

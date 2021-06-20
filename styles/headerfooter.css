@@ -1,19 +1,19 @@
 body{
     margin:0%;
-    font-family: 'Oxygen', sans-serif;
-    background-color:antiquewhite;
+    font-family: 'Staatliches', cursive;
+    background-color:rgb(232, 237, 255);
 }
 
 header {
 
-    background-color: rgb(240, 142, 112);
+    background-color: white;
     display: flex;
     flex-direction: row;
     align-items: center;
     height: 120px;
     justify-content: space-between;
-    color: rgb(255, 255, 255);
-    font-family: 'Oxygen', sans-serif;
+    color: #333d79ff;
+    font-family: 'Staatliches', cursive;
     margin:0%;
 }
 
@@ -23,7 +23,7 @@ header .HeadLeft{
     flex-direction: row;
     align-items: center;
     margin-left: 20px;
-    color:rgb(255, 255, 255);
+    color:#333d79ff;
     font-size: 25px;
 }
 header .HeadRight{
@@ -42,7 +42,8 @@ header .HeadRight a{
     font-size: 20px;
     margin: 0;
     text-decoration: none;
-    color: white;
+    color: #333d79ff;
+    
 }
 
 header .HeadRight p{
@@ -52,16 +53,18 @@ header .HeadRight p{
     font-size: 20px;
     margin: 0;
     text-decoration: none;
-    color: rgb(69, 96, 248);
-    background-color: white;
+    color: #333d79ff;
+    background-color: rgb(232, 237, 255);
+    
 }
 
 header .HeadRight a:hover, .headRight:active{
 
-    color:rgb(69, 96, 248);
-    background-color: white;
+    color: #333d79ff;
+    background-color: rgb(232, 237, 255);
     transition: 0.5s;
     transform: scale(1.1);
+    
 }
 
 header img{
@@ -72,13 +75,13 @@ header img{
 
 footer {
 
-    background-color: rgb(125, 236, 225);
-    color: rgb(69, 96, 248);
+    background-color: white;
+    color: #333d79ff;
     height: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: 'Oxygen', sans-serif;
+    font-family: 'Staatliches', cursive;
 }
 
 footer .TailLeft{
