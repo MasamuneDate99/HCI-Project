@@ -5,16 +5,28 @@
   height: 100%;
 }
 
+.judul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5%;
+}
+
+.judul h2{
+  padding-top: 2%;
+  font-size: 40px;
+  color: #333d79ff;
+}
+
 .body2 {
   overflow: hidden;
   height: 300px;
   width: 1200px;
-  margin-left: 650px;
-  margin-top: 50px;
+  margin-bottom: 5%;
+  
 }
 
 .body3 {
-  margin-top: 30px;
   background-color: #333d79ff;
   color: white;
   align-items: center;
@@ -41,7 +53,7 @@
   margin: 3%;
   margin-top: 2%;
   margin-bottom: 2%;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .body3Content h2{
@@ -104,9 +116,5 @@
   float: left;
 }
 
-.judul {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 
