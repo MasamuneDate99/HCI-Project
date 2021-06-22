@@ -26,8 +26,9 @@ body .contacts{
     align-items: center;
     padding: 10%;
     margin: 20%;
-    background-color: whitesmoke;
-    border-radius: 10px;
+    background-color: #333d79ff;
+    color: white;
+    border-radius: 30px 90px;
 }
 
 .contactprofiles img{
@@ -35,11 +36,15 @@ body .contacts{
     border-radius: 90px;
 }
 
+.contactprofiles p{
+    font-family: 'Montserrat', sans-serif;
+}
+
 .contactprofiles:hover, .contactprofiles:active{
 
     background-color: #333d79ff;
     color: white;
-    border-radius: 10px;
+    border-radius: 90px 30px;
     transform: scale(1.2);
     transition: 0.5s;
     
