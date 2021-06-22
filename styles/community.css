@@ -10,13 +10,30 @@ body .community{
     font-family: 'Staatliches', cursive;
 }
 
+.community h1{
+    font-size: 50px;
+    color: #333d79ff;;
+}
+
 body .contCommunity{
 
     display: flex;
+    flex-direction: row;
     justify-content: space-evenly;
     font-family: 'Staatliches', cursive;
     
 }
+
+.bodyCommunity{
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+    padding: 3%;
+    background-color: #333d79ff;;
+    border-radius: 25px;
+    color: white;
+}
+
 body .bodyCommunity:hover{
     transition: 0.8s;
     transform: scale(1.1);
@@ -30,6 +47,7 @@ body .picture img{
 .desc{
     text-align: center;
     font-size: 20px;
+    margin: 3%;
 }
 
 
