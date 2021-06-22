@@ -36,6 +36,10 @@ body .contacts{
     border-radius: 90px;
 }
 
+.contactprofiles p{
+    font-family: 'Montserrat', sans-serif;
+}
+
 .contactprofiles:hover, .contactprofiles:active{
 
     background-color: #333d79ff;
