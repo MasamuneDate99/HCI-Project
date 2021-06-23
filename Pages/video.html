@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>video</title>
+    <link rel="stylesheet" href="../styles/headerfooter.css">
+    <link rel="stylesheet" href="../styles/video.css">
+</head>
+<body>
+    <header>
+        <div class="HeadLeft">
+          <img src="../assets/logo_invis.png" alt="" />
+          <p>The Online Learning Website</p>
+        </div>
+  
+        <div class="HeadRight">
+          <a href="HomePage.html">Home Page</a>
+          <a href="Contact Us.html">Contact Us</a>
+          <a href="applyPage.html">Apply</a>
+          <a href="community.html">Community</a>
+          <a href="Course.html">Course</a>
+        </div>
+    </header>
+  
+    <div class="container">
+      <h1>Video Learning</h1>
+      <div class="row">
+        <div class="col">
+          <div class="feature-img">
+            <img src="../Assets/Video/Video1.PNG" width="100%"  alt="">
+            <img src="../Assets/Video/play.png" alt="" class="play-btn" 
+            onclick="playVideo('../Assets/Video/C Programming Tutorial 1 - Intro to C .mp4')">
+          </div>
+        </div>
+        <div class="col">
+          <div class="small-img-row">
+            <div class="small-img">
+              <img src="../Assets/Video/video2.PNG" alt="">
+              <img src="../Assets/Video/play.png" alt="" class="play-btn"
+              onclick="playVideo('../Assets/Video/C Programming Tutorial 2 - Installing GCC.mp4')">
+            </div>
+            <p>C Programming Tutorial 2 - Installing GCC</p>
+          </div>
+          <div class="small-img-row">
+            <div class="small-img">
+              <img src="../Assets/Video/video3.PNG" alt="">
+              <img src="../Assets/Video/play.png" alt="" class="play-btn"
+              onclick="playVideo('../Assets/Video/C Programming Tutorial 3 - Writing Our First Program - Hello World.mp4')">
+            </div>
+            <p>C Programming Tutorial 3 - Writing Our First Program - Hello World</p>
+          </div>
+          <div class="small-img-row">
+            <div class="small-img">
+              <img src="../Assets/Video/video4.PNG" alt="">
+              <img src="../Assets/Video/play.png" alt="" class="play-btn"
+              onclick="playVideo('../Assets/Video/C Programming Tutorial 4 - How a C Program Works - Part 1.mp4')">
+            </div>
+            <p>C Programming Tutorial 4 - How a C Program Works - Part 1</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-player" id="videoPlayer">
+      <video width="100%" controls autoplay id="myVideo">
+        <source src="../Assets/Video/C Programming Tutorial 1 - Intro to C .mp4" type="video/mp4">
+      </video>
+      <img src="../Assets/Video/close.png" class="close-btn" onclick="stopVideo()">
+    </div>
+
+    <script>
+      var videoPlayer = document.getElementById("videoPlayer");
+      var myVideo = document.getElementById("myVideo");
+
+      function stopVideo(){
+        videoPlayer.style.display = "none";
+      }
+
+      function playVideo(file){
+        myVideo.src = file;
+        videoPlayer.style.display = "block";
+      }
+    </script>
+
+
+    <footer>
+        <div class="TailLeft">
+          <p>&copy;Copyright Smart.exe 2021</p>
+          <p>Created by: Afentius, Davin, Hansen, Noviandy, Wilbert, Yonathan</p>
+        </div>
+  
+        <div class="TailRight">
+          <a href="https://www.facebook.com/"
+            ><img src="../assets/facebook.png" alt=""
+          /></a>
+          <a href="https://www.instagram.com/"
+            ><img src="../assets/instagram.png" alt=""
+          /></a>
+          <a href="https://twitter.com/?lang=en"
+            ><img src="../assets/twitter.png" alt=""
+          /></a>
+        </div>
+      </footer>
+</body>
+</html>
